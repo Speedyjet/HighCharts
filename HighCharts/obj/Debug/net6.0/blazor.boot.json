@@ -2,7 +2,7 @@
   "cacheBootResources": true,
   "config": [ ],
   "debugBuild": true,
-  "entryAssembly": "HighCharts",
+  "entryAssembly": "HighChartsSample",
   "icuDataMode": 0,
   "linkerEnabled": false,
   "resources": {
@@ -196,13 +196,13 @@
       "mscorlib.dll": "sha256-mvS0gmCEk3NPPJPuIX5UWyIRyNxQ4WYYES39CBT9CK0=",
       "netstandard.dll": "sha256-6NXprR7wyUZxpdXxaSPHSoC5uOL5UCc7bsZG3TSuVxE=",
       "System.Private.CoreLib.dll": "sha256-igtwZSR0\/lrbmwL\/XiTsEkIeSL+736GHTZPReYguZCQ=",
-      "HighCharts.dll": "sha256-2he5n9mkj3iTPiszGji7uKJjJr6NbAdnhHTdoohUSBY="
+      "HighChartsSample.dll": "sha256-yLpBVHRqKHwERgbLr+pVNjnY48iaGb6nyMhdN3\/ifOc="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "HighCharts.pdb": "sha256-HLqVKiD5qYg6bCErrMdMBhiQ0XukxqJIJevf+b1YU+0="
+      "HighChartsSample.pdb": "sha256-kh2+QnVphXBw+PRVucvLTRZUoejzpBy2GYhg87fbbV4="
     },
     "runtime": {
       "dotnet.6.0.14.sazkvoxl8q.js": "sha256-54cJ6JdGhGbKaLWxHfRYzYbuyRq2wlK\/ZDzfSXD3FEs=",

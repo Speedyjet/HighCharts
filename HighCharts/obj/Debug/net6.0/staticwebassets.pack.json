@@ -9,8 +9,8 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HighCharts.styles.css",
-      "PackagePath": "staticwebassets\\HighCharts.styles.css"
+      "Id": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HighChartsSample.styles.css",
+      "PackagePath": "staticwebassets\\HighChartsSample.styles.css"
     },
     {
       "Id": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\wwwroot\\css\\app.css",
@@ -73,24 +73,20 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\wwwroot\\sample-data\\weather.json",
-      "PackagePath": "staticwebassets\\sample-data\\weather.json"
-    },
-    {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HighCharts.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HighChartsSample.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.HighCharts.props",
-      "PackagePath": "build\\HighCharts.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.HighChartsSample.props",
+      "PackagePath": "build\\HighChartsSample.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.HighCharts.props",
-      "PackagePath": "buildMultiTargeting\\HighCharts.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.HighChartsSample.props",
+      "PackagePath": "buildMultiTargeting\\HighChartsSample.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.HighCharts.props",
-      "PackagePath": "buildTransitive\\HighCharts.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.HighChartsSample.props",
+      "PackagePath": "buildTransitive\\HighChartsSample.props"
     }
   ],
   "ElementsToRemove": []

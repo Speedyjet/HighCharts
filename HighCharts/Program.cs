@@ -1,4 +1,4 @@
-using HighCharts;
+using HighChartsSample;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 

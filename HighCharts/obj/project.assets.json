@@ -1769,9 +1769,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\HighCharts.csproj",
-      "projectName": "HighCharts",
-      "projectPath": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\HighCharts.csproj",
+      "projectUniqueName": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\HighChartsSample.csproj",
+      "projectName": "HighChartsSample",
+      "projectPath": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\HighChartsSample.csproj",
       "packagesPath": "C:\\Users\\Oleh_Brusentsov\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\obj\\",
       "projectStyle": "PackageReference",

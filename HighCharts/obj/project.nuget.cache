@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kRmWtNle2hHEqVfGKgZora7isXhKHrUsFyO9obBWlvKI+F29S6x+xFY4ao7DgjXRU1chel7wbwUHg6bHq2rhLw==",
+  "dgSpecHash": "9+wBLV66QmMD1ImZYhdzKDg9VODa5LxZg1+OlZFSS7DQ5EekpZLgpPHSZEiL7pCS4HxYLX9exDz/slyPaO/6+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\HighCharts.csproj",
+  "projectFilePath": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\HighChartsSample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Oleh_Brusentsov\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.13\\microsoft.aspnetcore.authorization.6.0.13.nupkg.sha512",
     "C:\\Users\\Oleh_Brusentsov\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.13\\microsoft.aspnetcore.components.6.0.13.nupkg.sha512",

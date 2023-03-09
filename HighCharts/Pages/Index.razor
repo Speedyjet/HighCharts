@@ -1,9 +1,92 @@
 ﻿@page "/"
+@inject HttpClient Http
+@using System.Text.Json.Serialization;
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Weather forecast</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>Weather forecast for Rijeka</h1>
 
-Welcome to your new app.
+@if (forecast == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Temp. (C)</th>
+                <th>Temp. (F)</th>
+                <th>Summary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@forecast.Latitude</td>
+                <td>@forecast.Longitude</td>
+                <td>@forecast.Hourly_units.Time</td>
+                <td>@forecast.Hourly_units.Temperature</td>
+            </tr>
+        </tbody>
+    </table>
+}
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@code {
+    private WeatherForecast forecast;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var jsonResponce = await Http.GetFromJsonAsync<WeatherForecast>("https://api.open-meteo.com/v1/forecast?latitude=45.33&longitude=14.44&hourly=temperature_2m");
+
+        forecast = jsonResponce;
+    }
+
+    public class WeatherForecast
+    {
+        [JsonPropertyName("latitude")]
+        public float? Latitude { get; set; }
+
+        [JsonPropertyName("longitude")]
+        public float? Longitude { get; set; }
+
+        [JsonPropertyName("generationtime_ms")]
+        public float? Generationtime_ms { get; set; }
+
+        [JsonPropertyName("utc_offset_seconds")]
+        public int? Utc_offset_seconds { get; set; }
+
+        [JsonPropertyName("timezone")]
+        public string? Timezone { get; set; }
+
+        [JsonPropertyName("timezone_abbreviation")]
+        public string? Timezone_abbreviation { get; set; }
+
+        [JsonPropertyName("elevation")]
+        public float? Elevation { get; set; }
+
+        [JsonPropertyName("hourly_units")]
+        public HourlyUnit? Hourly_units { get; set; }
+
+        [JsonPropertyName("hourly")]
+        public Hourly? Hourly { get; set; }
+
+    }
+
+    public class HourlyUnit
+    {
+        [JsonPropertyName("time")]
+        public string? Time { get; set; }
+        [JsonPropertyName("temperature_2m")]
+        public string? Temperature { get; set; }
+    }
+
+    public class Hourly
+    {
+        [JsonPropertyName("time")]
+        public string[]? Time { get; set; }
+
+        [JsonPropertyName("temperature_2m")]
+        public float[]? Temperature { get; set; }
+    }
+}
