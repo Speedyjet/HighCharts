@@ -198,13 +198,13 @@
       "mscorlib.dll": "sha256-mvS0gmCEk3NPPJPuIX5UWyIRyNxQ4WYYES39CBT9CK0=",
       "netstandard.dll": "sha256-6NXprR7wyUZxpdXxaSPHSoC5uOL5UCc7bsZG3TSuVxE=",
       "System.Private.CoreLib.dll": "sha256-igtwZSR0\/lrbmwL\/XiTsEkIeSL+736GHTZPReYguZCQ=",
-      "HighChartsSample.dll": "sha256-b7lduK9daFqsSOrjCzymfQhcaV7CP0y8+0xr6BCvkd8="
+      "HighChartsSample.dll": "sha256-+9jWg8OIFME8E8mzBNxEkfV2BuzOc9jwf0VbgkLGynE="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "HighChartsSample.pdb": "sha256-2McFjj55i6octOrQJysiQgrCb7rL\/1HTtWJ3y6v3ApE="
+      "HighChartsSample.pdb": "sha256-CKo0dKuvCTXUGbHupzfMa53E08V+rOGpP6aF1R\/jE+I="
     },
     "runtime": {
       "dotnet.6.0.14.sazkvoxl8q.js": "sha256-54cJ6JdGhGbKaLWxHfRYzYbuyRq2wlK\/ZDzfSXD3FEs=",

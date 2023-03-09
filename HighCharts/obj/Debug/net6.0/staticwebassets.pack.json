@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\HighChartsSample.styles.css"
     },
     {
+      "Id": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\wwwroot\\Script\\InitializeTable.js",
+      "PackagePath": "staticwebassets\\Script\\InitializeTable.js"
+    },
+    {
       "Id": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

@@ -7,14 +7,12 @@
 
 <PageTitle>Weather forecast</PageTitle>
 
-<h1>Weather forecast for Rijeka</h1>
-
 
 @code {
     protected override async Task OnInitializedAsync()
     {
         var jsonResponce = await Http.GetFromJsonAsync<WeatherForecast>("https://api.open-meteo.com/v1/forecast?latitude=45.33&longitude=14.44&hourly=temperature_2m");
-        await JS.InvokeVoidAsync("InitializeTable", jsonResponce);
+        await JS.InvokeVoidAsync("InitializeTable", jsonResponce, "Weather forecast for Rijeka");
     }
 
     public class WeatherForecast

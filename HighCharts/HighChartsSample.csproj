@@ -7,13 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="wwwroot\Script\InitializeTable.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Highsoft.Highcharts" Version="10.3.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.13" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Script\" />
+    <Resource Include="wwwroot\Script\InitializeTable.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

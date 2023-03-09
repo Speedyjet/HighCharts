@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hUINkyU04KLw2sfMYKZNqAnBtXL6SyZqb/sKwvRvr58=",
+  "Hash": "XFIyn9PIOJL0RrsCstdNz09/UjNGpfxVT1PxZKr058w=",
   "Source": "HighChartsSample",
   "BasePath": "/",
   "Mode": "Root",
@@ -7155,6 +7155,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\wwwroot\\Script\\InitializeTable.js",
+      "SourceId": "HighChartsSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Script/InitializeTable.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Script\\InitializeTable.js"
     }
   ]
 }

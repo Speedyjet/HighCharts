@@ -810,7 +810,6 @@ C:\Users\Oleh_Brusentsov\source\repos\HighCharts\HighCharts\obj\Debug\net6.0\sta
 C:\Users\Oleh_Brusentsov\source\repos\HighCharts\HighCharts\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Oleh_Brusentsov\source\repos\HighCharts\HighCharts\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Oleh_Brusentsov\source\repos\HighCharts\HighCharts\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\Oleh_Brusentsov\source\repos\HighCharts\HighCharts\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\Oleh_Brusentsov\source\repos\HighCharts\HighCharts\obj\Debug\net6.0\scopedcss\bundle\HighChartsSample.styles.css
 C:\Users\Oleh_Brusentsov\source\repos\HighCharts\HighCharts\obj\Debug\net6.0\scopedcss\projectbundle\HighChartsSample.bundle.scp.css
 C:\Users\Oleh_Brusentsov\source\repos\HighCharts\HighCharts\obj\Debug\net6.0\HighChartsSample.csproj.CopyComplete
