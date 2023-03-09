@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Highsoft.Highcharts/10.3.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Highcharts.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Highcharts.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/6.0.13": {
         "type": "package",
         "dependencies": {
@@ -400,6 +412,19 @@
         "runtime": {
           "lib/net6.0/Microsoft.JSInterop.WebAssembly.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -501,6 +526,18 @@
       }
     },
     "net6.0/browser-wasm": {
+      "Highsoft.Highcharts/10.3.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Highcharts.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Highcharts.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/6.0.13": {
         "type": "package",
         "dependencies": {
@@ -902,6 +939,19 @@
           }
         }
       },
+      "Newtonsoft.Json/12.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -995,6 +1045,19 @@
     }
   },
   "libraries": {
+    "Highsoft.Highcharts/10.3.3.1": {
+      "sha512": "SE+hopi7efebCWwp01KHeFWCKVMkSokoSaHvSBJ8nLdCyWEwTx/zUPg9OZgVrNXmUWE24gZ7xQackfdso7Kwhg==",
+      "type": "package",
+      "path": "highsoft.highcharts/10.3.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "highsoft.highcharts.10.3.3.1.nupkg.sha512",
+        "highsoft.highcharts.nuspec",
+        "lib/netstandard2.0/Highcharts.dll",
+        "license.txt"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/6.0.13": {
       "sha512": "voJUi8+ccHoLb+N2+KPk0YgipRYoUlqo4AsJgz3cb0NfVq+LiGUHHzzXTOk3WdPflSYwR/VUGLBGACuuaLFsSQ==",
       "type": "package",
@@ -1598,6 +1661,45 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
+    "Newtonsoft.Json/12.0.1": {
+      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.pdb",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.pdb",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.pdb",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.pdb",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.pdb",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.pdb",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.pdb",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "sha512": "frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
       "type": "package",
@@ -1757,6 +1859,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Highsoft.Highcharts >= 10.3.3.1",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.13",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.13"
     ]
@@ -1808,6 +1911,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Highsoft.Highcharts": {
+            "target": "Package",
+            "version": "[10.3.3.1, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[6.0.13, )"

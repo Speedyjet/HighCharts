@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g+puGXR6LcevuaqEA+Irzu06Rxz0r7B3KhSTv1n8Kts=",
+  "Hash": "hUINkyU04KLw2sfMYKZNqAnBtXL6SyZqb/sKwvRvr58=",
   "Source": "HighChartsSample",
   "BasePath": "/",
   "Mode": "Root",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Oleh_Brusentsov\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.14\\runtimes\\browser-wasm\\native\\dotnet.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Highcharts.dll",
+      "SourceId": "HighChartsSample",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Highcharts.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Oleh_Brusentsov\\.nuget\\packages\\highsoft.highcharts\\10.3.3.1\\lib\\netstandard2.0\\Highcharts.dll"
     },
     {
       "Identity": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HighChartsSample.dll",
@@ -695,6 +712,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Oleh_Brusentsov\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.14\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "SourceId": "HighChartsSample",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Oleh_Brusentsov\\.nuget\\packages\\newtonsoft.json\\12.0.1\\lib\\netstandard2.0\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.AppContext.dll",
@@ -5338,6 +5372,23 @@
       "OriginalItemSpec": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Transactions.Local.dll"
     },
     {
+      "Identity": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\obj\\Debug\\net6.0\\build-gz\\lMx8vyfO.gz",
+      "SourceId": "HighChartsSample",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Highcharts.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Highcharts.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Highcharts.dll"
+    },
+    {
       "Identity": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\obj\\Debug\\net6.0\\build-gz\\LNqYVOp2.gz",
       "SourceId": "HighChartsSample",
       "SourceType": "Computed",
@@ -6237,6 +6288,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.timezones.blat"
+    },
+    {
+      "Identity": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\obj\\Debug\\net6.0\\build-gz\\svLTFgoQ.gz",
+      "SourceId": "HighChartsSample",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\HighCharts\\HighCharts\\obj\\Debug\\net6.0\\build-gz\\T+vthx8z.gz",

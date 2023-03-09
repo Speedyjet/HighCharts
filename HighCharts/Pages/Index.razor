@@ -1,45 +1,20 @@
 ﻿@page "/"
 @inject HttpClient Http
+@inject IJSRuntime JS
 @using System.Text.Json.Serialization;
+@using Highsoft.Web.Mvc.Charts
+@using Highsoft.Web.Mvc.Charts.Rendering;
 
 <PageTitle>Weather forecast</PageTitle>
 
 <h1>Weather forecast for Rijeka</h1>
 
-@if (forecast == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>@forecast.Latitude</td>
-                <td>@forecast.Longitude</td>
-                <td>@forecast.Hourly_units.Time</td>
-                <td>@forecast.Hourly_units.Temperature</td>
-            </tr>
-        </tbody>
-    </table>
-}
 
 @code {
-    private WeatherForecast forecast;
-
     protected override async Task OnInitializedAsync()
     {
         var jsonResponce = await Http.GetFromJsonAsync<WeatherForecast>("https://api.open-meteo.com/v1/forecast?latitude=45.33&longitude=14.44&hourly=temperature_2m");
-
-        forecast = jsonResponce;
+        await JS.InvokeVoidAsync("InitializeTable", jsonResponce);
     }
 
     public class WeatherForecast
@@ -89,4 +64,4 @@ else
         [JsonPropertyName("temperature_2m")]
         public float[]? Temperature { get; set; }
     }
-}
+                }
